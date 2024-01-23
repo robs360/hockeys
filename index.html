@@ -24,44 +24,69 @@
         .font {
             font-family: 'Manrope', sans-serif;
         }
+
+
     </style>
 
 </head>
 
 <body>
     <header>
+
+        <nav class="w-11/12 flex justify-between mx-auto my-6 items-center navi">
+            <div class="flex  flex-row space-x-3 items-center">
+                <img src="B9A3-Hockeys/hamburger.png" alt="" class="w-[26px] h-[26px] 
+                inline-block lg:hidden">
+                <h1 class="text-2xl md:text-3xl font-bold"> <span class="text-orange-600">InToUcH</span> Hockey</h1>
+                <img src="B9A3-Hockeys/athlete.png" alt="" class="w-[36px] h-[36px]">
+            </div>
+            <div class="space-x-10 hidden lg:inline-block">
+                <a> <span class="text-orange-600 text-[18px] font-bold">Home</span></a>
+                <a><span class="text-[16px] font-bold">About</span></a>
+                <a><span class="text-[16px] font-bold">Pages</span></a>
+                <a><span class="text-[16px] font-bold">Blog</span></a>
+                <a><span class="text-[16px] font-bold">Contact</span></a>
+            </div>
+            <div class="flex space-x-5 items-center">
+                <img src="B9A3-Hockeys/search.png" alt="" class="w-[28px] h-[28px] hidden lg:inline-block">
+                <button
+                    class="h-[45px] w-[130px] md:h-[52px] text-white font-bold md:w-[160px] bg-orange-600 rounded-lg">
+                    Get Started</button>
+            </div>
+        </nav>
         <div class="Banner w-11/12 mx-auto md:relative">
             <div class="carousel w-full h-[350px] md:h-[600px] ">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="B9A3-Hockeys/Images/banner1.png" class="w-full rounded-md" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide3" class="btn btn-circle">❮</a>
-                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    <div class="absolute flex justify-start transform -translate-y-1/2 left-5 right-5 top-2/3">
+                        <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
                     </div>
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
-                    <img src="banner2.jpeg" class="w-full rounded-md"/>
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" class="btn btn-circle">❮</a>
-                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    <img src="banner2.jpeg" class="w-full rounded-md" />
+                    <div class="absolute flex justify-start transform -translate-y-1/2 left-5 right-5 top-2/3">
+                        <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
                     </div>
                 </div>
-               
+
                 <div id="slide3" class="carousel-item relative w-full">
                     <img src="banner3.jpg" class="w-full rounded-md" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide2" class="btn btn-circle">❮</a>
-                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    <div class="absolute flex justify-start transform -translate-y-1/2 left-5 right-5 top-2/3">
+                        <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
                     </div>
                 </div>
             </div>
             <div class="bg-black my-3 md:absolute w-full md:w-1/2 rounded-lg min-h-[140px] p-4
-            right-4 bottom-7">
+              right-4 bottom-7">
                 <h1 class="text-xl tmd:text-2xl font-bold text-white">Meet all the heroes from the field</h1>
                 <p class="text-base text-gray-400">
                     Hero Hockey is a dexterity game that you play underneath the board.
-               
-                    Encouragement is one of the most crucial elements in supporting your child through minor hockey,  </p>
+
+                    Encouragement is one of the most crucial elements in supporting your child through minor hockey,
+                </p>
             </div>
         </div>
     </header>
